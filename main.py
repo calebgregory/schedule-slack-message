@@ -42,7 +42,7 @@ def print_users(members: ty.List[dict]):
     print('id, name, display_name, real_name')
 
 
-def list_users():
+def list_users(_args):
     client = WebClient(token=TOKEN())
     resp = client.users_list()
     print_users(resp['members'])
