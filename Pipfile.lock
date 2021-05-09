@@ -1,0 +1,44 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "68620e115b525c842919fad64e9b093f8f0933eb494182d552e423e06a2e39aa"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.7"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.python.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "python-dateutil": {
+            "hashes": [
+                "sha256:73ebfe9dbf22e832286dafa60473e4cd239f8592f699aa5adaf10050e6e1823c",
+                "sha256:75bb3f31ea686f1197762692a9ee6a7550b59fc6ca3a1f4b5d7e32fb98e2da2a"
+            ],
+            "index": "pypi",
+            "version": "==2.8.1"
+        },
+        "six": {
+            "hashes": [
+                "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926",
+                "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
+            ],
+            "version": "==1.16.0"
+        },
+        "slack-sdk": {
+            "hashes": [
+                "sha256:4d3f9f1a984fe828260010fc66ebcd1aeb63b78e6e47d366a9e7177ccc529e84",
+                "sha256:8ceb46f7989d2ba1694dec8555dbda7f750b9216e453da4ad3e32a498bc9ea9a"
+            ],
+            "index": "pypi",
+            "version": "==3.5.1"
+        }
+    },
+    "develop": {}
+}
